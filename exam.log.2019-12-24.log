@@ -1,0 +1,335 @@
+2019-12-24 14:14:56.358 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 23900 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:14:56.359 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:14:56.360 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:15:01.297 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:15:01.299 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:15:01.300 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:15:01.313 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:15:01.313 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:15:01.314 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:15:01.314 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:15:01.382 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:15:01.822 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:15:04.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:15:04.214 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 9.32 seconds (JVM running for 15.008)
+2019-12-24 14:15:50.708 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 9648 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:15:50.710 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:15:50.711 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:15:52.720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:15:52.721 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:15:52.721 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:15:52.724 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:15:52.724 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:15:52.725 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:15:52.725 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:15:52.731 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:15:52.971 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:15:53.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:15:54.000 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 3.914 seconds (JVM running for 5.936)
+2019-12-24 14:16:20.464 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:17:32.953 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 14716 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:17:32.955 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:17:32.956 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:17:34.795 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:17:34.796 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:17:34.797 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:17:34.798 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:17:34.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:17:34.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:17:34.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:17:34.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:17:34.977 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:17:35.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:17:35.908 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 3.568 seconds (JVM running for 5.488)
+2019-12-24 14:17:40.590 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:18:06.046 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 16284 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:18:06.047 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:18:06.048 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:18:08.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:18:08.108 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:18:08.108 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:18:08.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:18:08.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:18:08.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:18:08.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:18:08.116 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:18:08.281 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:18:09.327 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:18:09.364 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 4.132 seconds (JVM running for 6.465)
+2019-12-24 14:18:21.849 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:18:22.887 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-24 14:18:23.441 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-24 14:18:23.451 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:18:23.501 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:18:23.516 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:18:23.522 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:18:23.522 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:18:23.559 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:20:15.916 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:20:15.917 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:20:15.919 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:20:15.920 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:20:15.920 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:20:15.922 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:20:26.634 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 11628 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:20:26.637 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:20:26.637 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:20:28.756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:20:28.757 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:20:28.758 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:20:28.759 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:20:28.760 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:20:28.760 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:20:28.760 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:20:28.765 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:20:29.001 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:20:30.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:20:30.581 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 4.648 seconds (JVM running for 6.793)
+2019-12-24 14:30:55.897 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 2804 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:30:55.899 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:30:55.900 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:30:57.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:30:57.903 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:30:57.903 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:30:57.907 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:30:57.907 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:30:57.908 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:30:57.908 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:30:57.914 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:30:58.140 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:30:59.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:30:59.223 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 3.897 seconds (JVM running for 5.736)
+2019-12-24 14:31:08.863 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:31:11.870 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-24 14:31:12.124 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-24 14:31:12.137 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:31:12.164 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:31:12.185 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:31:12.194 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:31:12.195 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:31:12.196 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:31:48.550 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 14280 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:31:48.551 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:31:48.552 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:31:50.796 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:31:50.797 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:31:50.798 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:31:50.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:31:50.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:31:50.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:31:50.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:31:50.805 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:31:51.006 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:31:51.883 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:31:51.915 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 4.004 seconds (JVM running for 5.971)
+2019-12-24 14:32:00.470 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:32:00.990 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-24 14:32:01.206 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-24 14:32:01.215 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:32:01.234 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:32:01.248 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:32:01.254 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:32:01.254 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:32:01.255 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:32:05.042 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:32:05.043 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:32:05.044 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:32:05.045 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:32:05.045 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:32:05.047 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:32:10.192 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:32:10.193 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:32:10.195 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:32:10.196 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:32:10.196 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:32:10.198 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:32:12.490 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:32:12.491 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:32:12.493 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:32:12.494 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:32:12.494 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:32:12.496 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:32:41.633 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 16780 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:32:41.635 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:32:41.636 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:32:44.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:32:44.373 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:32:44.373 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:32:44.376 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:32:44.376 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:32:44.377 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:32:44.377 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:32:44.384 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:32:44.645 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:32:45.631 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:32:45.664 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 4.674 seconds (JVM running for 6.816)
+2019-12-24 14:32:47.847 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:32:48.345 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-24 14:32:48.551 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-24 14:32:48.561 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:32:48.578 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:32:48.591 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:32:48.596 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:32:48.596 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:32:48.597 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:32:52.293 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:32:52.295 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:32:52.305 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:32:52.308 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:32:52.308 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:32:52.309 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:33:26.741 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:33:26.742 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:33:26.743 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:33:26.744 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:33:26.745 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:33:26.746 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:33:33.698 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:33:33.699 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:33:33.700 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:33:33.701 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:33:33.703 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:33:33.706 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:33:40.215 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.addAcct - ==>  Preparing: insert into acct(consNo,prepayBal,freezeAmt,chgBal,transitNot,orgNo) values (?,?,?,?,?,?) 
+2019-12-24 14:33:40.216 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.addAcct - ==> Parameters: 11(String), 11.0(Double), 11.0(Double), 11.0(Double), 11.0(Double), 11(String)
+2019-12-24 14:33:40.272 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.addAcct - <==    Updates: 1
+2019-12-24 14:33:41.592 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:33:41.593 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:33:41.595 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:33:41.596 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:33:41.597 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:33:41.599 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:33:46.168 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:33:46.169 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:33:46.171 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:33:46.172 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:33:46.173 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:33:46.174 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:33:47.599 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:33:47.600 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:33:47.602 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:33:47.603 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:33:47.604 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:33:47.605 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:35:05.239 [main] INFO  com.csdj.acct.AcctApplication - Starting AcctApplication on DESKTOP-U8CISTF with PID 17728 (started by 周佳良 in C:\Users\周佳良\IdeaProjects\acct)
+2019-12-24 14:35:05.241 [main] DEBUG com.csdj.acct.AcctApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-24 14:35:05.245 [main] INFO  com.csdj.acct.AcctApplication - No active profile set, falling back to default profiles: default
+2019-12-24 14:35:07.097 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:35:07.099 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-24 14:35:07.099 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-24 14:35:07.102 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-24 14:35:07.103 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-12-24 14:35:07.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-24 14:35:07.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-24 14:35:07.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-24 14:35:07.350 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-24 14:35:08.399 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-24 14:35:08.433 [main] INFO  com.csdj.acct.AcctApplication - Started AcctApplication in 3.787 seconds (JVM running for 5.71)
+2019-12-24 14:35:10.563 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:35:11.026 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-24 14:35:11.230 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-24 14:35:11.240 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:35:11.257 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:35:11.274 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:35:11.279 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:35:11.280 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:35:11.281 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:35:12.569 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 14:35:12.571 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 2(Integer)
+2019-12-24 14:35:12.621 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 14:35:13.915 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.updateAcct - ==>  Preparing: update acct set consNo=?,prepayBal=?,freezeAmt=? ,chgBal=?,transitNot=?,orgNo=? where acctId=? 
+2019-12-24 14:35:13.916 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.updateAcct - ==> Parameters: 11(String), 11.0(Double), 11.0(Double), 11.0(Double), 11.0(Double), 11(String), 2(Integer)
+2019-12-24 14:35:14.011 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.updateAcct - <==    Updates: 1
+2019-12-24 14:35:15.331 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:35:15.332 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:35:15.334 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:35:15.336 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:35:15.336 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:35:15.337 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:35:16.399 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 14:35:16.400 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 2(Integer)
+2019-12-24 14:35:16.401 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 14:35:18.810 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.updateAcct - ==>  Preparing: update acct set consNo=?,prepayBal=?,freezeAmt=? ,chgBal=?,transitNot=?,orgNo=? where acctId=? 
+2019-12-24 14:35:18.811 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.updateAcct - ==> Parameters: 11(String), 11.0(Double), 11.0(Double), 11.0(Double), 11.0(Double), 1122(String), 2(Integer)
+2019-12-24 14:35:18.864 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.updateAcct - <==    Updates: 1
+2019-12-24 14:35:20.150 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:35:20.151 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:35:20.153 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:35:20.155 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:35:20.155 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:35:20.156 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:41:00.935 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.delAcct - ==>  Preparing: delete from acct where acctId=? 
+2019-12-24 14:41:00.937 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.delAcct - ==> Parameters: 2(Integer)
+2019-12-24 14:41:01.021 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.delAcct - <==    Updates: 1
+2019-12-24 14:41:02.360 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:41:02.361 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:41:02.362 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:41:02.363 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:41:02.364 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:41:02.365 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:41:02.958 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 14:41:02.958 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 1(Integer)
+2019-12-24 14:41:02.960 [http-nio-8080-exec-9] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 14:41:07.563 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:41:07.565 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:41:07.566 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:41:07.567 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:41:07.569 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:41:07.571 [http-nio-8080-exec-1] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:44:23.853 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 14:44:23.854 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 1(Integer)
+2019-12-24 14:44:23.856 [http-nio-8080-exec-5] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 14:44:27.767 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:44:27.768 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:44:27.771 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:44:27.771 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:44:27.772 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:44:27.774 [http-nio-8080-exec-7] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:45:38.958 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:45:38.961 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 20(Integer)
+2019-12-24 14:45:38.962 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:45:38.963 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:45:38.963 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:45:38.963 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:45:42.294 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:45:42.295 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:45:42.305 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 1
+2019-12-24 14:45:42.306 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:45:42.307 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:45:42.307 [http-nio-8080-exec-3] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:46:04.077 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.addAcct - ==>  Preparing: insert into acct(consNo,prepayBal,freezeAmt,chgBal,transitNot,orgNo) values (?,?,?,?,?,?) 
+2019-12-24 14:46:04.078 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.addAcct - ==> Parameters: 111(String), 11.1(Double), 11.1(Double), 11.1(Double), 11.1(Double), 11(String)
+2019-12-24 14:46:04.121 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.addAcct - <==    Updates: 1
+2019-12-24 14:46:05.422 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:46:05.423 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:46:05.429 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:46:05.430 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:46:05.431 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:46:05.431 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:46:08.721 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 14:46:08.722 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 3(Integer)
+2019-12-24 14:46:08.723 [http-nio-8080-exec-10] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 14:46:09.842 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:46:09.842 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:46:09.844 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:46:09.846 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:46:09.846 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:46:09.847 [http-nio-8080-exec-2] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 14:46:11.231 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 14:46:11.232 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 3(Integer)
+2019-12-24 14:46:11.234 [http-nio-8080-exec-4] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 14:46:14.608 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 14:46:14.609 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 14:46:14.610 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 14:46:14.611 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 14:46:14.611 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 14:46:14.613 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1
+2019-12-24 15:12:48.857 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==>  Preparing: select * from acct where acctId=? 
+2019-12-24 15:12:48.858 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - ==> Parameters: 3(Integer)
+2019-12-24 15:12:48.877 [http-nio-8080-exec-6] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctIdById - <==      Total: 1
+2019-12-24 15:12:49.838 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==>  Preparing: select * from acct limit ?,? 
+2019-12-24 15:12:49.839 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - ==> Parameters: 0(Integer), 5(Integer)
+2019-12-24 15:12:49.840 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcct - <==      Total: 2
+2019-12-24 15:12:49.840 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==>  Preparing: select count(1) from acct 
+2019-12-24 15:12:49.841 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - ==> Parameters: 
+2019-12-24 15:12:49.842 [http-nio-8080-exec-8] DEBUG com.csdj.acct.mapper.AcctMapper.findAcctCount - <==      Total: 1

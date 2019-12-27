@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.csdj.acct.mapper.AcctMapper">
+
+    <resultMap id="amap" type="Acct">
+        <id column="acctId" property="acctId"/>
+        <result column="consNo" property="consNo"/>
+        <result column="prepayBal" property="prepayBal"/>
+        <result column="freezeAmt" property="freezeAmt"/>
+        <result column="chgBal" property="chgBal"/>
+        <result column="transitNot" property="transitNot"/>
+        <result column="orgNo" property="orgNo"/>
+    </resultMap>
+
+    <select id="findAcct" resultMap="amap">
+        select * from acct limit #{currPage},#{pageSize}
+    </select>
+
+
+    <select id="findAcctCount" resultType="int" parameterType="int">
+        select count(1) from acct
+    </select>
+
+    <insert id="addAcct">
+        insert into acct(consNo,prepayBal,freezeAmt,chgBal,transitNot,orgNo)
+        values (#{consNo},#{prepayBal},#{freezeAmt},#{chgBal},#{transitNot},#{orgNo})
+    </insert>
+
+    <delete id="delAcct">
+        delete from acct where acctId=#{acctId}
+    </delete>
+
+    <select id="findAcctIdById" resultMap="amap">
+        select * from acct where acctId=#{acctId}
+    </select>
+
+    <update id="updateAcct">
+        update acct set consNo=#{consNo},prepayBal=#{prepayBal},freezeAmt=#{freezeAmt}
+        ,chgBal=#{chgBal},transitNot=#{transitNot},orgNo=#{orgNo}
+        where acctId=#{acctId}
+    </update>
+
+</mapper>

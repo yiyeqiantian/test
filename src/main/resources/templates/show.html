@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <script type="text/javascript" src="/js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="/layui/layui.js"></script>
+</head>
+<body>
+
+<br>
+<div class="layui-container">
+    <div class="layui-row">
+        <form class="layui-form">
+            <!--            <div class="layui-col-sm4">-->
+            <!--                <div class="layui-form-item">-->
+            <!--                    <label class="layui-form-label">姓名</label>-->
+            <!--                    <div class="layui-input-block">-->
+            <!--                        <input type="text" id="criName" name="criName" autocomplete="off" placeholder="请输入标题"-->
+            <!--                               class="layui-input">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <div class="layui-col-sm3" style="float: right">
+                <!--                <button type="button" class="layui-btn" id="btnSave"-->
+                <!--                        data-type="findCri">-->
+                <!--                    <i class="layui-icon">&#xe615;</i>查询-->
+                <!--                </button>-->
+                <button type="button" class="layui-btn">
+                    <i class="layui-icon">&#xe669;</i>刷新
+                </button>
+                <button type="button" id="add" class="layui-btn" data-method="add">
+                    <i class="layui-icon">&#xe654;</i>添加
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="layui-row">
+        <div class="layui-col-sm12">
+            <table class="layui-hide" id="test" lay-filter="test"></table>
+            <input type="hidden" id="fid">
+            <script type="text/html" id="toolbarDemo">
+                <div class="layui-btn-container demoTable">
+                    <button class="layui-btn layui-btn-sm" lay-event="getCheckData">获取选中行数据</button>
+                    <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button>
+                    <button class="layui-btn layui-btn-sm" lay-event="isAll">验证是否全选</button>
+                </div>
+            </script>
+            <script type="text/html" id="barDemo">
+                <a class="layui-btn layui-btn-xs" lay-event="edit">
+                    <i class="layui-icon">&#xe642;</i>编辑</a>
+                <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">
+                    <i class="layui-icon">&#xe640;</i>删除</a>
+
+            </script>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    layui.use(['table'], function () {
+        var table = layui.table;
+        $ = layui.jquery;
+        table.render({
+            elem: '#test',
+            url: 'findAcct',
+            page: true, //开启分页
+            limit: 5, //默认5条数据一页
+//				height: 300, //高度
+            limits: [5, 10, 20, 50, 100], //数据分页条
+            id: "idTest",
+            toolbar: '#toolbarDemo', //开启头部工具栏，并为其绑定左侧模板
+            defaultToolbar: ['filter', 'exports', 'print', { //自定义头部工具栏右侧图标。如无需自定义，去除该参数即可
+                title: '提示',
+                layEvent: 'LAYTABLE_TIPS',
+                icon: 'layui-icon-tips'
+            }],
+            cols: [
+                [{type: 'checkbox',fixed: 'left'},
+                    {field:'acctId',width:120, title: '账户标识',sort: true},
+                    {field:'consNo',width:120, title: '用户编号'},
+                    {field:'prepayBal',width:120, title: '预收余额'},
+                    {field:'freezeAmt', width:130,title: '冻结余额',sort: true},
+                    {field:'chgBal', width:130, title: '调尾余额',sort: true},
+                    {field:'transitNot', width:130,title: '在途票据余额',sort: true},
+                    {field:'orgNo', width:130, title: '供电单位编号',sort: true},
+                    {fixed: 'right',title:"操作",toolbar:"#barDemo",width:150}
+                ]
+            ]
+        });
+
+        var $=layui.$,active={
+            findCri:function(){
+                //执行重载
+                table.reload('idTest',{
+                    page:{
+                        curr:1
+                    },
+                    where:{
+                        criName:$('#criName').val()
+                    }
+                });
+            }
+        };
+        //查询按钮
+        $("#btnSave").on('click', function() {
+            var type = $(this).data('type');
+            active[type] ? active[type].call(this) : '';
+        });
+
+        //头工具栏事件
+        table.on('toolbar(test)', function(obj) {
+            var checkStatus = table.checkStatus(obj.config.id);
+            switch(obj.event) {
+                case 'getCheckData':
+                    var data = checkStatus.data;
+                    layer.alert(JSON.stringify(data));
+                    //						var strJson = JSON.stringify(data);
+                    //						var objJson = eval('('+strJson+')');
+                    //						$.each(objJson,function(a,b){
+                    //							layer.alert(b.id)
+                    //						})
+                    break;
+                case 'getCheckLength':
+                    var data = checkStatus.data;
+                    layer.msg('选中了：' + data.length + ' 个');
+                    break;
+                case 'isAll':
+                    layer.msg(checkStatus.isAll ? '全选' : '未全选');
+                    break;
+                //自定义头工具栏右侧图标 - 提示
+                case 'LAYTABLE_TIPS':
+                    layer.alert('这是工具栏右侧自定义的一个图标按钮');
+                    break;
+            };
+        });
+
+        //监听行工具事件
+        table.on('tool(test)', function(obj) {
+            var data = obj.data;
+            //console.log(obj)
+            if(obj.event === 'detail') {
+                layer.msg('ID：' + data.id + ' 的查看操作');
+            } else if(obj.event === 'del') {
+                layer.confirm('真的删除行么',function(index) {
+                    $.ajax({
+                        type:"post",
+                        url:"delAcct",
+                        data:{
+                            acctId:data.acctId
+                        },
+                        dataType:"json",
+                        success:function(data){
+                            if(data>0){
+                                layer.msg("操作成功", {icon: 1,time: 1000}, function() {
+                                    parent.location.reload();
+                                });
+                            }else{
+                                layer.msg("操作失败", {icon: 2,time: 1000});
+                            }
+                        },
+                        error:function(){
+                            layer.msg("ajax执行错误！", {icon: 2,time: 1000});
+                        }
+                    });
+                    obj.del();
+                    layer.close(index);
+                });
+            } else if(obj.event === 'edit') {
+                $("#fid").val(data.acctId);
+                layer.open({
+                    type: 2,
+                    title: '编辑信息',
+                    //maxmin: true, //最大最小窗口
+                    offset: 'auto',//位置居中
+                    shadeClose: true, //点击遮罩关闭层
+                    shade: 0.5,  //不显示遮罩
+                    anim: 0,
+                    area:['1000px' , '500px'],
+                    content:'add'//弹框显示的url,对应的页面
+                });
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $("document").ready(function(){
+        $("#add").click(function(){
+            $("#fid").val(0);
+            layer.open({
+                type: 2,
+                title: '添加信息',
+                //maxmin: true, //最大最小窗口
+                offset: 'auto',//位置居中
+                shadeClose: true, //点击遮罩关闭层
+                shade: 0.5,  //不显示遮罩
+                anim: 0,
+                area:['1000px' , '500px'],
+                content:'add'//弹框显示的url,对应的页面
+            });
+        });
+    });
+</script>
+</html>

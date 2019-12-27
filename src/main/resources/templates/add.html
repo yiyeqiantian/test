@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <script type="text/javascript" src="/js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="/layui/layui.js"></script>
+</head>
+<body onload="findCriId()">
+<div class="layui-form">
+    <input type="hidden" id="parentid">
+    <div class="layui-container">
+        <div class="layui-row">
+            <div class="layui-col-sm4">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">用户编号</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="consNo" id="consNo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm4">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">预收余额</label>
+                    <div class="layui-input-inline" id="criSex">
+                        <input type="number" class="layui-input" name="prepayBal" id="prepayBal">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-row">
+            <div class="layui-col-sm4">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">冻结余额</label>
+                    <div class="layui-input-inline">
+                        <input type="number" class="layui-input" name="freezeAmt" id="freezeAmt">
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm4">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">调尾余额</label>
+                    <div class="layui-input-inline">
+                        <input type="number" class="layui-input" name="chgBal" id="chgBal">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row">
+            <div class="layui-col-sm4">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">在途票据余额</label>
+                    <div class="layui-input-inline">
+                        <input type="number" class="layui-input" name="transitNot" id="transitNot">
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm4">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">供电单位编号</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input" name="orgNo" id="orgNo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-row">
+            <div class="layui-col-sm7" style="text-align: right;">
+                <button type="button" class="layui-btn layui-btn-sm" id="btnAdd" name="btnAdd">
+                    <i class="layui-icon layui-icon-ok"></i>保存
+                </button>
+                <button type="button" class="layui-btn layui-btn-primary layui-btn-sm" id="btnCancel" name="btnCancel">
+                    <i class="layui-icon layui-icon-close"></i>关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $("document").ready(function () {
+        var fid = parent.$("#fid").val();
+        $("#parentid").val(fid);
+    });
+</script>
+<script>
+    layui.use(['layer', 'element', 'form', 'laydate'], function () {
+        var layer = layui.layer,
+            laydate = layui.laydate,
+            form = layui.form,
+            element = layui.element
+        $ = layui.jquery;
+    })
+</script>
+<script>
+    $("#btnAdd").click(function () {
+        var id = $("#parentid").val();
+
+        if (id <= 0) {
+            $.ajax({
+                type: 'post',
+                url: 'addAcct',
+                data: {
+                    consNo: $("#consNo").val(),
+                    prepayBal: $("#prepayBal").val(),
+                    freezeAmt: $("#freezeAmt").val(),
+                    chgBal: $("#chgBal").val(),
+                    transitNot: $("#transitNot").val(),
+                    orgNo: $("#orgNo").val()
+                },
+                dataType: 'json',
+                success: function (data) {
+                    if (data > 0) {
+                        layer.msg("添加成功！", {
+                            icon: 6,
+                            time: 1000
+                        }, function () {
+                            parent.location.reload();
+                        });
+                    } else {
+                        layer.msg("添加失败！", {
+                            icon: 5,
+                            time: 1000
+                        })
+                    }
+                },
+                error: function () {
+                    layer.msg("ajax错误！", {icon: 2, time: 1000})
+                }
+            })
+        } else {
+            $.ajax({
+                type: "post",
+                url: "updateAcct",
+                data: {
+                    acctId: id,
+                    consNo: $("#consNo").val(),
+                    prepayBal: $("#prepayBal").val(),
+                    freezeAmt: $("#freezeAmt").val(),
+                    chgBal: $("#chgBal").val(),
+                    transitNot: $("#transitNot").val(),
+                    orgNo: $("#orgNo").val()
+                },
+                dataType: "json",
+                success: function (data) {
+                    if (data > 0) {
+                        layer.msg("操作成功", {
+                            icon: 1,
+                            time: 1000
+                        }, function () {
+                            parent.location.reload();
+                        });
+                    } else {
+                        layer.msg("操作失败", {
+                            icon: 2,
+                            time: 1000
+                        });
+                    }
+                },
+                error: function () {
+                    layer.msg("ajax执行错误！", {
+                        icon: 2,
+                        time: 1000
+                    });
+                }
+            });
+        }
+
+    })
+</script>
+<script>
+    function findCriId() {
+        var pid = $("#parentid").val();
+        if (pid > 0) {
+            $.ajax({
+                type: "post",
+                url: "findAcctIdById",
+                data: {
+                    acctId: pid
+                },
+                dataType: "json",
+                success: function (data) {
+                    consNo: $("#consNo").val(data.consNo);
+                    prepayBal: $("#prepayBal").val(data.prepayBal);
+                    freezeAmt: $("#freezeAmt").val(data.freezeAmt);
+                    chgBal: $("#chgBal").val(data.chgBal);
+                    transitNot: $("#transitNot").val(data.transitNot);
+                    orgNo: $("#orgNo").val(data.orgNo);
+                    layui.use(['form'],function () {
+                        var form = layui.form;
+                        form.render();
+                    })
+                },
+                error: function () {
+                    layer.msg("ajax执行错误！", {
+                        icon: 2,
+                        time: 1000
+                    });
+                }
+            });
+        }
+    }
+</script>
+<script type="text/javascript">
+    //关闭按钮
+    $(function () {
+        $("#btnCancel").click(function () {
+            parent.window.location.reload();
+            //刷新父级页面
+            var index = parent.layer.getFrameIndex(window.name); //获取当前页面索引
+            parent.layer.close(index); //关闭当前页面
+        });
+    });
+</script>
+</html>
